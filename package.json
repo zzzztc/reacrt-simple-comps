@@ -47,7 +47,10 @@
     ]
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^6.9.1"
+    "@testing-library/jest-dom": "^6.9.1",
+    "clsx": "^2.1.1",
+    "react-is": "^19.2.0",
+    "styled-components": "^6.1.19"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
