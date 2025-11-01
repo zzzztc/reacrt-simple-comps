@@ -1,4 +1,11 @@
 ---
+navs:
+  - title: 指南
+    path: /guide
+    order: 50
+  - title: 组件
+    path: /components
+    order: 1
 hero:
   title: library
   description: A react library developed with dumi
