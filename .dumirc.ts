@@ -52,7 +52,12 @@ export default defineConfig({
           children: [
             { title: 'Form', link: '/components/Form' },
             { title: 'Input', link: '/components/Input' },
+            { title: 'InputNumber', link: '/components/Number' },
           ],
+        },
+        {
+          title: '导航布局',
+          children: [{ title: 'Space', link: '/components/Space' }],
         },
       ],
     },
