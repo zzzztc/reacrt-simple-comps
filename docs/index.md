@@ -7,23 +7,13 @@ navs:
     path: /components
     order: 1
 hero:
-  title: library
-  description: A react library developed with dumi
+  title: React Simple Comps
+  description: 一个简洁优雅的 React UI 组件库，专为现代 Web 应用设计
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+    - text: 快速开始
+      link: /guide/quick-start
+    - text: 组件列表
+      link: /components
 ---
 
-react-simple-comps
+

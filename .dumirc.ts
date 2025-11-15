@@ -27,7 +27,7 @@ export default defineConfig({
           title: '开始使用',
           children: [
             { title: '快速开始', link: '/guide/quick-start' },
-            { title: '安装指南', link: '/guide/installation' },
+            // { title: '安装指南', link: '/guide/installation' },
           ],
         },
       ],

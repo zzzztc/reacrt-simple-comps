@@ -28,6 +28,6 @@
       "react-simple-comps/*": ["./src/*", "*"]
     }
   },
-  "include": ["src"],
+  "include": ["src",".dumirc.ts"],
   "exclude": ["node_modules", "dist", "lib"]
 }
