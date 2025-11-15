@@ -1,0 +1,11 @@
+
+node_modules
+dist
+types
+demo
+es
+pack.js
+dev.js
+test 
+config
+**/*.test.tsx
