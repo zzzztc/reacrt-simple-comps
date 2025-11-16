@@ -308,6 +308,6 @@ const Popup = forwardRef<HTMLDivElement, Props>((props, ref) => {
     : null;
 });
 
-Popup.displayName = 'UC-Popup';
+Popup.displayName = 'RSC-Popup';
 
 export default Popup;

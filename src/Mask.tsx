@@ -66,10 +66,12 @@ const Mask = React.forwardRef<HTMLDivElement, Props>((props: Props, ref) => {
   });
 
   useEffect(() => {
+    console.log(visible, hideOverflow)
     document.body.style.overflow = visible && hideOverflow ? 'hidden' : '';
   }, [visible, hideOverflow]);
 
   useUnmount(() => {
+    console.log(23333)
     document.body.style.overflow = '';
   });
 

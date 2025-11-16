@@ -2,6 +2,7 @@
 import { ReactElement } from 'react';
 import ReactDOM from 'react-dom';
 
+
 /** 是否是浏览器 */
 export const isBrowser = !!(typeof window !== 'undefined' && window);
 
@@ -10,7 +11,7 @@ export const isMobile =
   isBrowser && /(iPhone|iPad|iPod|iOS|android)/i.test(navigator.userAgent);
 // 创建类型守卫函数
 const hasCreateRoot = (obj: typeof ReactDOM): obj is typeof ReactDOM & {
-  createRoot: Function;
+  createRoot: any;
 } => {
   return 'createRoot' in obj;
 };
@@ -101,18 +102,24 @@ export const renderElement: (
 ) => Dispose = (element, container) => {
   const dom = container || document.createElement('div');
   document.body.appendChild(dom);
+  let root: ReturnType<typeof ReactDOM.createRoot> | null = null;
   // eslint-disable-next-line
+// In render section:
   if (hasCreateRoot(ReactDOM)) {
-    ReactDOM.createRoot(dom).render(element);
+    root = ReactDOM.createRoot(dom);
+    root.render(element);
   } else {
     ReactDOM.render(element, dom);
   }
 
   const dispose = () => {
     // eslint-disable-next-line
-    ReactDOM?.unmountComponentAtNode
-      ? ReactDOM.unmountComponentAtNode(dom)
-      : ReactDOM.root.unmount;
+    if (root) {
+      root.unmount();
+    }   else {
+      ReactDOM.unmountComponentAtNode(dom);
+    }
+
     if (dom && dom.parentNode) {
       dom.parentNode.removeChild(dom);
     }
