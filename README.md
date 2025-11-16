@@ -8,7 +8,7 @@
 专为现代 Web 应用设计的轻量级 React 组件库，提供丰富实用的 UI 组件，帮助开发者快速构建美观、易用的用户界面。
 
 📚 在线文档
-访问我们的在线文档了解更多信息： https://zzzztc.github.io/react-simple-comps/
+访问我们的在线文档了解更多信息： https://zzzztc.github.io/react-simple-comps
 
 ## 🌟 核心特性
 
