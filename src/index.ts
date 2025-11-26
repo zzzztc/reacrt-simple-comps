@@ -1,21 +1,22 @@
+export { default as AlertDialog } from './AlertDialog';
 export { default as Avatar } from './Avatar';
+export { default as Badge } from './Badge';
 export { default as BallSpin } from './BallSpin';
 export { default as Button } from './Button';
+export { default as Cell } from './Cell';
+export { default as ClockSpin } from './ClockSpin';
 export { default as Divider } from './Divider';
+export { default as Drawer } from './Drawer';
 export { default as Foo } from './Foo';
 export { default as Icon } from './Icon';
 export { default as Input } from './Input';
 export { default as InputNumber } from './InputNumber';
-export { default as Space } from './Space';
-export { default as ThemeProvider } from './ThemeProvider';
-export { default as Drawer } from './Drawer';
-export { default as Toast } from './Toast';
-export { default as Switch } from './Switch';
-export { default as Cell } from './Cell';
-export { default as AlertDialog } from './AlertDialog';
-export { default as SkeletonElement } from './SkeletonElement';
 export { default as Skeleton } from './Skeleton';
-export { default as ClockSpin } from './ClockSpin';
+export { default as SkeletonElement } from './SkeletonElement';
+export { default as Space } from './Space';
+export { default as Switch } from './Switch';
+export { default as ThemeProvider } from './ThemeProvider';
+export { default as Toast } from './Toast';
 
 /** form表单 */
 export { default as Form } from './Form';

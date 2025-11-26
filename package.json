@@ -61,7 +61,8 @@
     "signature_pad": "^5.1.1",
     "simple-redux-store": "^2.0.0",
     "sortablejs": "^1.15.6",
-    "styled-components": "^6.1.19"
+    "styled-components": "^6.1.19",
+    "w-popover": "^2.1.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
