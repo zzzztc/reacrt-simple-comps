@@ -72,7 +72,7 @@ const StyledInput = styled.div`
   &.pc {
     background-image: none;
     border: 1px solid ${vars.border};
-    border-radius: 2px;
+    border-radius: 6px;
     transition: all 0.3s;
     &:hover:not(.disabled, .read-only) {
       ${getThemeColorCss('border-color')}

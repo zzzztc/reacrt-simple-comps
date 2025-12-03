@@ -55,7 +55,7 @@ const StyledNotify = styled.div`
     .content {
       box-shadow: ${boxShadow};
       background-color: #fff;
-      border-radius: 2px;
+      border-radius: 6px;
     }
   }
 
@@ -128,7 +128,7 @@ const Notify: React.FC<Props> & {
     <StyledNotify
       {...rest}
       ref={elRef}
-      className={clsx('uc-notify', className, {
+      className={clsx('rsc-notify', className, {
         mobile: isMobile,
         pc: !isMobile,
       })}

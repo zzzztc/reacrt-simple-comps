@@ -40,9 +40,11 @@ export default defineConfig({
             { title: 'Foo', link: '/components/Foo' },
             { title: 'Button 按钮', link: '/components/button' },
             { title: 'Icon 图标', link: '/components/icon' },
-            { title: 'AlertDialog 弹窗', link: '/components/Dialog'},
+            { title: 'AlertDialog 弹窗', link: '/components/Dialog' },
             { title: 'Drawer 抽屉', link: '/components/Drawer' },
-            { title: 'Toast 提示', link: '/components/Toast' }
+            { title: 'Modal 模态窗', link: '/components/Modal' },
+            { title: 'Toast 提示', link: '/components/Toast' },
+            { title: 'Notify 提示', link: '/components/Notify' },
           ],
         },
         {
@@ -50,6 +52,8 @@ export default defineConfig({
           children: [
             { title: 'Avatar 头像', link: '/components/Avatar' },
             { title: 'Badge 红标', link: '/components/Badge' },
+            { title: 'ImageViewer 提示', link: '/components/ImageViewer' },
+            { title: 'Slide 轮播图', link: '/components/Slide' },
           ],
         },
         {
@@ -58,13 +62,21 @@ export default defineConfig({
             { title: 'Form 表格', link: '/components/Form' },
             { title: 'Input 输入框', link: '/components/Input' },
             { title: 'InputNumber 数字输入框', link: '/components/Number' },
+            {
+              title: 'PasswordInput 密码输入框',
+              link: '/components/PasswordInput',
+            },
+            { title: 'Checkbox 复选框', link: '/components/Checkbox' },
+            { title: 'Checkbox 复选框组', link: '/components/CheckboxGroup' },
+            { title: 'Radio 单选框', link: '/components/Radio' },
+            { title: 'RadioGroup 单选组', link: '/components/RadioGroup' },
           ],
         },
         {
           title: '导航布局',
           children: [
-              {title: 'Skeleton 骨架屏', link: '/components/Skeleton' },
-              { title: 'Space 间距', link: '/components/Space' }
+            { title: 'Skeleton 骨架屏', link: '/components/Skeleton' },
+            { title: 'Space 间距', link: '/components/Space' },
           ],
         },
       ],

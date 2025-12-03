@@ -62,7 +62,7 @@ const StyledButton = styled.button`
   user-select: none;
   touch-action: manipulation;
   font-size: 14px;
-  border-radius: 2px;
+  border-radius: 6px;
   border: 1px solid transparent;
   padding: 0px 16px;
   height: 32px;

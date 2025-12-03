@@ -12846,6 +12846,11 @@ w-popover@^2.1.4:
   resolved "https://registry.npmmirror.com/w-popover/-/w-popover-2.1.4.tgz#cc434210bbdc4aa928263e79eac178a124ca7167"
   integrity sha512-t6McNaTSYzVLrK/VARf6shiwf1W4YjAqweUaaHsbhdG0zzxrLuPUhMbILaAlabM2vUVYDS0EqVzy80ol+rC46Q==
 
+w-touch@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/w-touch/-/w-touch-2.0.0.tgz#9d8e2c479e56d6006cdbed52c49aeeee0d7bb764"
+  integrity sha512-PYnngF+KHzZRBFI6qsm5PHwVNO5Lx3dYDrvNv//Ei9fvnYlaOWr9sKAriD/crlshWee9ZPsyvDMA4UnoR1LUHw==
+
 walker@^1.0.8:
   version "1.0.8"
   resolved "https://registry.npmjs.org/walker/-/walker-1.0.8.tgz"

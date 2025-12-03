@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import React from 'react';
 import styled from 'styled-components';
-import type { BaseProps } from './types';
 import { beforeDisposeGen, Dispose, renderElement } from './helper/dom';
 import Mask from './Mask';
+import type { BaseProps } from './types';
 
 const StyledToast = styled.div`
   z-index: 2000;
@@ -12,7 +12,7 @@ const StyledToast = styled.div`
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
-  border-radius: 4px;
+  border-radius: 6px;
   text-align: center;
   position: fixed;
   top: 50%;
@@ -47,7 +47,7 @@ type StaticToastProps =
       /** 内容样式, 应用于StyledToast */
       style?: React.CSSProperties;
       /** 模态时 mask style */
-      maskStyle: React.CSSProperties;
+      maskStyle?: React.CSSProperties;
       /** 隐藏后的回调函数 */
       afterClose?: () => void;
     };

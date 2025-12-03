@@ -15,7 +15,7 @@ type Offset = { x?: number; y?: number };
 
 const StyledPopover = styled(Popover)`
   background: #fff;
-  border-radius: 2px;
+  border-radius: 6px;
   box-shadow: ${boxShadow};
 `;
 
